@@ -1,14 +1,13 @@
 import React from "react";
 import "./App.scss";
-
+import Sidebar from "./components/Sidebar";
 
 const App = () => {
   return (
-    <>
-      <h2>Hello World </h2>
-    </>
+    <main>
+      <Sidebar />
+    </main>
   );
 };
 
 export default App;
-
