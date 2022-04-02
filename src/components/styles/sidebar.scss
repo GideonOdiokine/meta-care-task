@@ -32,7 +32,7 @@ section {
             padding: 10px 35px;
 
             h4 {
-                font-family: Tahoma;
+                font-family: 'Roboto', sans-serif;
                 font-style: normal;
                 font-weight: 700;
                 font-size: 14px;
@@ -48,7 +48,7 @@ section {
             }
 
             p {
-                font-family: sans-serif;
+                font-family: 'Roboto', sans-serif;
                 font-style: normal;
                 font-weight: 400;
                 font-size: 12px;
@@ -71,17 +71,18 @@ section {
             gap: 1rem;
 
             ul {
-                padding-inline-start: 0;
 
                 li {
                     padding: 0.6rem 0.4rem;
+                    display: flex;
+                    justify-content: space-between;
 
                     a {
                         display: flex;
                         align-items: center;
 
                         span {
-                            font-family: 'Domine';
+                            font-family: 'Roboto', sans-serif;
                             font-style: normal;
                             font-weight: 400;
                             font-size: 16px;
