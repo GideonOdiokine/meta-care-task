@@ -1,0 +1,48 @@
+header {
+    border-bottom: 1px solid #ECEBF5;
+    padding: 10px 35px;
+
+    .header__container {
+        form {
+            width: 441px;
+
+            .form__group {
+                position: relative;
+                display: flex;
+
+                input {
+                    width: 100%;
+                    padding: 22px 10px;
+                    background: #FAFAFC;
+                    border: none;
+                    border-radius: 10px;
+                    outline: none;
+
+
+                }
+
+                input::placeholder {
+                    font-family: sans-serif;
+                    font-style: normal;
+                    font-weight: 400;
+                    font-size: 16px;
+                    line-height: 29px;
+                    /* identical to box height, or 181% */
+
+                    display: flex;
+                    align-items: center;
+
+                    color: #A3A3C2;
+                }
+
+                svg {
+                    position: absolute;
+                    right: 14px;
+                    top: 18px;
+                }
+            }
+
+        }
+    }
+
+}
