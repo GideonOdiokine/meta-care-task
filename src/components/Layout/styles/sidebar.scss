@@ -18,6 +18,10 @@ section {
         gap: 2rem;
         padding-top: 20px;
 
+        .toggle {
+            display: none;
+        }
+
         .brand {
             display: flex;
             // justify-content: center;
@@ -115,7 +119,6 @@ section {
         height: max-content;
         padding: 1rem;
         width: 100%;
-        background-color: #060213;
 
         .sidebar__top {
             flex-direction: row;
@@ -124,6 +127,14 @@ section {
             padding: 0 1rem;
             width: 100%;
 
+
+
+            .brand {
+                gap: 1rem;
+                /* justify-content: flex-end; */
+                width: auto;
+            }
+
             .toggle {
                 display: block;
                 color: white;
@@ -131,18 +142,17 @@ section {
 
                 svg {
                     font-size: 1.4rem;
+                    color: #fff;
                 }
-            }
 
-            .brand {
-                gap: 1rem;
-                /* justify-content: flex-end; */
-                width: auto;
+                :first-child {
+                    color: #060213;
+                }
+
             }
         }
 
-        .sidebar__top>.links,
-        .logout {
+        .sidebar__top>.links {
             display: none;
         }
     }
