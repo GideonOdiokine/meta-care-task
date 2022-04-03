@@ -182,3 +182,37 @@
         }
     }
 }
+
+@media(max-width:820px) {
+    .analytics .flex {
+        display: block;
+    }
+
+    .analytics .flex h4 {
+        display: block;
+        font-size: 18px;
+    }
+}
+
+@media(max-width:550px) {
+    .analytics .flex .content form {
+        width: 100%;
+        margin-bottom: 10px;
+    }
+
+    .analytics .flex .content {
+        display: block;
+    }
+
+    .analytics .flex .content button {
+        margin-top: 10px;
+    }
+
+    .analytics .analytics__container .analytics__top ul li a {
+        font-size: 11px;
+    }
+
+    .analytics .analytics__container .analytics__top ul li {
+        padding-right: 15px;
+    }
+}

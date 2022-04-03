@@ -107,3 +107,49 @@ section {
         }
     }
 }
+
+@media screen and (min-width: 280px) and (max-width: 1236px) {
+    section {
+        position: initial;
+        width: 100%;
+        height: max-content;
+        padding: 1rem;
+        width: 100%;
+        background-color: #060213;
+
+        .sidebar__top {
+            flex-direction: row;
+            align-items: center;
+            justify-content: space-between;
+            padding: 0 1rem;
+            width: 100%;
+
+            .toggle {
+                display: block;
+                color: white;
+                z-index: 100;
+
+                svg {
+                    font-size: 1.4rem;
+                }
+            }
+
+            .brand {
+                gap: 1rem;
+                /* justify-content: flex-end; */
+                width: auto;
+            }
+        }
+
+        .sidebar__top>.links,
+        .logout {
+            display: none;
+        }
+    }
+}
+
+@media(max-width:768px) {
+    section .sidebar__top .brand {
+        gap: 0;
+    }
+}

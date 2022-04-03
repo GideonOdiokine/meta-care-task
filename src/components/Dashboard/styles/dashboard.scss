@@ -3,3 +3,9 @@
     // padding: 2rem;
     height: 100%;
 }
+
+@media screen and (min-width: 280px) and (max-width: 1236px) {
+    .dashboard__section {
+        margin-left: auto;
+    }
+}

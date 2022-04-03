@@ -7,7 +7,7 @@ const Navbar = () => {
       <div className="header__container">
         <form>
           <div className="form__group">
-            <input type="search" placeholder="Ask us any question" />
+            <input type="text" placeholder="Ask us any question" />
             <svg
               width="21"
               height="21"

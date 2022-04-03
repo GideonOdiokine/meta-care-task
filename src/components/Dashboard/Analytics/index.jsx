@@ -1,5 +1,5 @@
 import React from "react";
-import "./styles/index.scss";
+import "../styles/index.scss";
 
 const index = () => {
   return (
@@ -49,7 +49,7 @@ const index = () => {
                   stroke-linejoin="round"
                 />
               </svg>
-              <input type="search" placeholder="Search" />
+              <input type="text" placeholder="Search" />
             </div>
           </form>
           <div className="select__option">
