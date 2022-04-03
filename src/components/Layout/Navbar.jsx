@@ -67,7 +67,6 @@ const Navbar = () => {
             </svg>
           </span>
           <span>
-            {" "}
             <svg
               width="57"
               height="34"
