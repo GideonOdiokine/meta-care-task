@@ -1,4 +1,5 @@
 import React from "react";
+import Graph from "../../ShareComponent/Graph";
 import "../styles/index.scss";
 
 const index = () => {
@@ -69,6 +70,9 @@ const index = () => {
           </div>
           <button>Export</button>
         </div>
+      </div>
+      <div className="analytic__graph">
+        <Graph />
       </div>
     </div>
   );

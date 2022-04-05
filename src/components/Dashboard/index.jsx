@@ -1,6 +1,6 @@
 import React from "react";
 import Navbar from "../Layout/Navbar";
-import Analytics from "./Analytics";
+import Analytics from "./Analytics/Analytics";
 import "./styles/dashboard.scss";
 
 const Dashboard = () => {

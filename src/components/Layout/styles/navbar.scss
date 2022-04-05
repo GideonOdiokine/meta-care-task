@@ -73,3 +73,17 @@ header {
         gap: 1rem;
     }
 }
+
+@media(max-width:458px) {
+    header .header__container {
+        display: block;
+    }
+
+    header .header__container form {
+        width: 100%;
+    }
+
+    header .header__container .notification {
+        display: none;
+    }
+}

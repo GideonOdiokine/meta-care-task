@@ -181,6 +181,24 @@
             }
         }
     }
+
+    .analytic__graph {
+        padding: 8px 50px 30px 35px;
+
+        .graph__content {
+            background: #FFFFFF;
+            /* Border/stroke */
+
+            border: 1px solid #ECEBF5;
+            border-radius: 10px;
+            height: 314px;
+
+            .graph__container {
+                height: 100%;
+                width: 100%;
+            }
+        }
+    }
 }
 
 @media(max-width:820px) {
